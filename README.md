@@ -21,13 +21,23 @@ Project scope: This is a simulation-based educational implementation. It does no
 **Features**
 
 Classical CAN 2.0A standard frame format.
+
 Standard 11-bit CAN identifier.
+
 Data payload support of up to 8 bytes.
+
 CRC-15 generation using polynomial 0x4599.
+
 CAN bit stuffing after five consecutive identical bits.
+
 Serial CAN frame transmission using Verilog.
+
 Receiver loopback capture for simulation verification.
+
 Basic CAN identifier arbitration.
+
 Arduino-based sensor data generation.
+
 Python-based serial data acquisition and test-vector generation.
+
 Behavioral simulation using Xilinx Vivado.
